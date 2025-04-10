@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  conciliate:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONUNBUFFERED=1
+    # Start with chainData.py to fetch data first, then you can run arbitrage.py manually
+    command: run-with-reload chainData.py

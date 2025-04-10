@@ -70,10 +70,49 @@ vlx = {
 matic = {
     "exchange_address": {
         "sushiswap": Web3.toChecksumAddress("0x1b02da8cb0d097eb8d57a175b88c7d8b47997506"),
-        "quickswap": Web3.toChecksumAddress("0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff")
+        "quickswap": Web3.toChecksumAddress("0xa5e0829caced8ffdd4de3c43696c57f7d7a678ff"),
+        "uniswap": Web3.toChecksumAddress("0x68b3465833fb72A70ecDF485E0e4C7bD8665Fc45"),
+        "apeswap": Web3.toChecksumAddress("0xC0788A3aD43d79aa53B09c2EaCc313A787d1d607"),
+        "dfyn": Web3.toChecksumAddress("0xA102072A4C07F06EC3B4900FDC4C7B80b6c57429"),
+        "polycat": Web3.toChecksumAddress("0x8CFD1B9B7478E7B0422916B72d1DB6A9D513D734"),
+        "cometh": Web3.toChecksumAddress("0x93BCdB8D11Bc4E1bCc5C524E03bA31E21a682D12"),
+        "jetswap": Web3.toChecksumAddress("0x5C6EC38fb0e2609672BDf628B1fD605A523E5923")
     },
     "currency_address": {
-        "base": Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270")
+        "base": Web3.toChecksumAddress("0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270"),  # WMATIC
+        # Stablecoins
+        "usdc": Web3.toChecksumAddress("0x2791bca1f2de4661ed88a30c99a7a9449aa84174"),
+        "usdt": Web3.toChecksumAddress("0xc2132d05d31c914a87c6611c10748aeb04b58e8f"),
+        "dai": Web3.toChecksumAddress("0x8f3cf7ad23cd3cadbd9735aff958023239c6a063"),
+        "eurs": Web3.toChecksumAddress("0xe111178a87a3bff0c8d18decba5798827539ae99"),
+        "busd": Web3.toChecksumAddress("0xdab529f40e671a1d4bf91361c21bf9f0c9712ab7"),
+        
+        # Wrapped tokens
+        "weth": Web3.toChecksumAddress("0x7ceb23fd6bc0add59e62ac25578270cff1b9f619"),
+        "wbtc": Web3.toChecksumAddress("0x1bfd67037b42cf73acf2047067bd4f2c47d9bfd6"),
+        "wbnb": Web3.toChecksumAddress("0xecdcb5b88f8e3c15f95c720c51c71c9e2080525d"),
+        
+        # DeFi tokens
+        "aave": Web3.toChecksumAddress("0xd6df932a45c0f255f85145f286ea0b292b21c90b"),
+        "crv": Web3.toChecksumAddress("0x172370d5cd63279efa6d502dab29171933a610af"),
+        "link": Web3.toChecksumAddress("0x53e0bca35ec356bd5dddfebbd1fc0fd03fabad39"),
+        "bal": Web3.toChecksumAddress("0x9a71012b13ca4d3d0cdc72a177df3ef03b0e76a3"),
+        "cel": Web3.toChecksumAddress("0xd85d1e945766fea5eda9103f918bd915fbca63e6"),
+        
+        # Polygon ecosystem tokens
+        "quick": Web3.toChecksumAddress("0x831753dd7087cac61ab5644b308642cc1c33dc13"),
+        "sushi": Web3.toChecksumAddress("0x0b3f868e0be5597d5db7feb59e1cadbb0fdda50a"),
+        "ghst": Web3.toChecksumAddress("0x385eeac5cb85a38a9a07a70c73e0a3271cfb54a7"),
+        "route": Web3.toChecksumAddress("0x16eccfdbb4ee1a85a33f3a9b21175cd7ae753db4"),
+        "dfyn": Web3.toChecksumAddress("0xc168e40227e4ebd8c1cae80f7a55a4f0e6d66c97"),
+        "titan": Web3.toChecksumAddress("0xaaa5b9e6c589642f98a1cda99b9d024b8407285a"),
+        "fish": Web3.toChecksumAddress("0x3a3df212b7aa91aa0402b9035b098891d276572b"),
+        
+        # Gaming and metaverse tokens
+        "sand": Web3.toChecksumAddress("0xbbba073c31bf03b8acf7c28ef0738decf3695683"),
+        "mana": Web3.toChecksumAddress("0xa1c57f48f0deb89f569dfbe6e2b7f46d33606fd4"),
+        "ape": Web3.toChecksumAddress("0xb7b31a6bc18e48888545ce79e83e06003be70930"),
+        "grt": Web3.toChecksumAddress("0x5fe2b58c013d7601147dcdd68c143a77499f5531")
     }
 }
 
